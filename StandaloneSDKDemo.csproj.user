@@ -1,0 +1,5 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <StartArguments>-ip 192.168.1.225 -port 4370 -setFingerP 1512 -FingerIdx 7 -inoutFP fp15.txt</StartArguments>
+  </PropertyGroup>
+</Project>
